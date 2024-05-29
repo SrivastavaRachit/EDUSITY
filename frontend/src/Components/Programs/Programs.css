@@ -44,3 +44,14 @@
 .program:hover .caption {
     opacity: 1;
 }
+
+/* MEDIA QUERY */
+@media (max-width:650px) {
+    .programs {
+        flex-direction: column;
+    }
+    .program {
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
